@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Qtec Careers</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="products">
+        <input
+          type="text"
+          placeholder="Search Products . . . . "
+          name=""
+          id=""
+        />
+        <div id="products"></div>
+        <div class="footer">
+          <p>Dhanmondi | Register | New Sale</p>
+          <div class="button-part">
+            <button class="option-button">Options</button>
+            <button class="sell-button">New Sell</button>
+          </div>
+        </div>
+      </div>
+      <div class="cart">
+        <div class="add-customer">
+          <img
+            src="https://cdn.pngsumo.com/new-customers-customers-group-icon-png-and-vector-for-free-new-customer-png-512_512.png"
+            alt=""
+          />
+          <p>Add Customer</p>
+        </div>
+        <div id="cart-products"></div>
+        <div class="cart-price">
+          <div class="item">
+            <p class="left">Discount:</p>
+            <p class="right">BDT0.00</p>
+          </div>
+          <div class="item">
+            <p class="left">Subtotal:</p>
+            <p class="right">BDT<span id="subtotal"></span></p>
+          </div>
+          <div class="item">
+            <p class="left">Tax(0%):</p>
+            <p class="right">BDT0</p>
+          </div>
+          <div class="item">
+            <p class="left">Total:</p>
+            <p class="right">BDT<span id="total"></span></p>
+          </div>
+          <div class="pay-button">
+            <p class="left">PAY</p>
+            <p class="right">BDT:<span id="total-amount"></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./fakeProductsData.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
